@@ -136,9 +136,14 @@ text-align: center;
     .row .right-column .card .images{
         height: fit-content;
     }
-   
-        .row .left-column .info .small-card{
+    .row .left-column .info .small-card{
             font-size: 14px;
             white-space: nowrap;
         }
+}
+@media screen and (max-width:991px)
+{
+    .row .left-column .card>h2{
+    font-size:15px;
+    }
 }
